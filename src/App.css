@@ -1,0 +1,79 @@
+.comment{
+    clear: both;
+    padding: 14px 10px;
+    margin: 15px 10px;
+    border-radius: 5px;
+    overflow-y: hidden;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    -webkit-animation: dude .75s 1 forwards;
+    -moz-animation: dude .75s 1 forwards;
+    -o-animation: dude .75s 1 forwards;
+    animation: dude .75s 1 forwards;
+}
+@-webkit-keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-o-keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.img-circle{
+  float:left;
+}
+
+.img-circle>img{
+  border-radius: 50%;
+}
+
+.comment-info{
+  padding-left: 75px;
+  margin-top: 15px;
+
+}
+
+.comment-info>h4, p{
+  margin: 6px 0px;
+}
+/**
+  Paginator style
+**/
+.paginator{
+  width: 100%;
+}
+
+.page-range{
+  float: left;
+  padding-left: 10px;
+}
+
+.page-nav{
+  float: left;
+  padding-left: 100px;
+
+}
